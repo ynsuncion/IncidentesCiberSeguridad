@@ -1,0 +1,111 @@
+{
+  "version": "1",
+  "name": "CiberSeguridad2",
+  "items": [
+    {
+      "name": "Mitigate",
+      "type": "http",
+      "seq": 1,
+      "tags": [],
+      "request": {
+        "method": "get",
+        "url": "",
+        "params": [],
+        "headers": [],
+        "auth": {
+          "mode": "none"
+        },
+        "body": {
+          "mode": "none"
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "docs": ""
+      },
+      "settings": {},
+      "filename": "Mitigate.yml",
+      "pathname": "c:/Users/Alumno n°17/Desktop/Ciberseguridad 2/Ciberseguridad 2/CiberSeguridad2/Mitigate.yml",
+      "draft": null,
+      "partial": true,
+      "loading": false,
+      "size": 0.0001678466796875,
+      "depth": 1
+    },
+    {
+      "name": "vulnerable",
+      "type": "http",
+      "seq": 1,
+      "tags": [],
+      "request": {
+        "method": "get",
+        "url": "",
+        "params": [],
+        "headers": [],
+        "auth": {
+          "mode": "none"
+        },
+        "body": {
+          "mode": "none"
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "docs": ""
+      },
+      "settings": {},
+      "filename": "vulnerable.yml",
+      "pathname": "c:/Users/Alumno n°17/Desktop/Ciberseguridad 2/Ciberseguridad 2/CiberSeguridad2/vulnerable.yml",
+      "draft": null,
+      "partial": true,
+      "loading": false,
+      "size": 0.00017261505126953125,
+      "depth": 1
+    }
+  ],
+  "environments": [],
+  "runtimeVariables": {},
+  "brunoConfig": {
+    "opencollection": "1.0.0",
+    "name": "CiberSeguridad2",
+    "type": "collection",
+    "ignore": [
+      "node_modules",
+      ".git"
+    ],
+    "proxy": {
+      "inherit": true,
+      "config": {
+        "protocol": "http",
+        "hostname": "",
+        "port": "",
+        "auth": {
+          "username": "",
+          "password": ""
+        },
+        "bypassProxy": ""
+      }
+    }
+  },
+  "securityConfig": {
+    "jsSandboxMode": "safe"
+  },
+  "settingsSelectedTab": "overview",
+  "folderLevelSettingsSelectedTab": {},
+  "allTags": [],
+  "format": "yml",
+  "importedAt": 1788446458983,
+  "lastAction": null,
+  "root": {
+    "meta": null,
+    "request": null,
+    "docs": null
+  },
+  "isLoading": false,
+  "globalEnvironmentVariables": {},
+  "globalEnvSecrets": [],
+  "exportedAt": "2026-09-03T14:41:02.372Z",
+  "exportedUsing": "Bruno VS Code Extension"
+}
